@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logo.png">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Spotify Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Search</a></li>
+                <li><a href="#">Your Library</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="sidebar">
+            <ul>
+                <li><a href="#">Create Playlist</a></li>
+                <li><a href="#">Liked Songs</a></li>
+            </ul>
+            <div class="playlists">
+                <h3>Playlists</h3>
+                <ul>
+                    <li><a href="#">Daily Mix 1</a></li>
+                    <li><a href="#">Daily Mix 2</a></li>
+                    <li><a href="#">Daily Mix 3</a></li>
+                    <li><a href="#">Discover Weekly</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="content">
+            <h1>Featured Playlists</h1>
+            <div class="playlist">
+                <img src="spotify_playlist.jpg" alt="Playlist 1">
+                <div class="playlist-info">
+                    <h2>Top Hits</h2>
+                    <p>The biggest hits from around the world.</p>
+                </div>
+            </div>
+            <div class="playlist">
+                <img src="spotify_playlist2.jpg" alt="Playlist 2">
+                <div class="playlist-info">
+                    <h2>Chill Vibes</h2>
+                    <p>Relax and unwind with these chill tunes.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="now-playing-bar">
+            <div class="now-playing">
+                <img src="Sajni-From-Laapataa-Ladies.jpg" alt="Album Art">
+                <div class="song-info">
+                    <h3 id="song-title">Sajni(From "Laapataa Ladies")</h3>
+                    <p id="artist-name">Arijit Singh</p>
+                </div>
+            </div>
+            <div class="controls">
+                <button idev">Prev</button>
+                <button id="play-pause">Play</button>
+                <button id="next">Next</button>
+            </div>
+            <div class="volume">
+                <input type="range" min="0" max="100" value="50">
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
